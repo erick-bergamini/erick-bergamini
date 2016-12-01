@@ -5,7 +5,7 @@
 }
 body{
   background-color: #ddd;
-  background-image: url(bkg.png);
+  background-image: url(darkwood.jpg);
 }
 
 h1{
@@ -29,35 +29,67 @@ a{
 }
 
 #topspace{
-  width: 100%;
-  height: 30px;
-}
-#animacao1{
-  margin: auto;
-  border-radius: 2%;
-  background-color: #eee;
-  width: 800px;
-  height: 500px;
-  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.2);
-}
-#buttom{
-  margin-left:30px;
-  padding: 25px;
-  float: left;
-  display: block;
-  border-radius: 100%;
-  background-color: #e32;
-  width: 10px;
-  height: 10px;
-  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 30px;
 }
 
+#principal{
+    margin: auto;
+    background-color: #f2ebc7;
+    width: 800px;
+    height: 800px;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.redondo{
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+    margin-left:30px;
+    padding: 25px;
+    float: left;
+    display: block;
+    border-radius: 100%;
+    background-color: #e32;
+    width: 10px;
+    height: 10px;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.5);
+}
+
+#dados{
+    float: left;
+    display: block;
+    
+        
+}
+
+#rodape{
+    background-image: url(rodape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+#eu{
+    margin-top: -20px;
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari */
+    transform: rotate(2deg);
+    margin-left: -155px;
+    display: inline;
+}
 /*conteúdo da div principal*/
 .conteudo{
 
 }
 #inicio{
-
+    background-image: url(titulo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 645px;
+    height: 200px;
+    float: right;
 }
 #meio{
 
