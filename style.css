@@ -33,17 +33,17 @@ a{
     height: 30px;
 }
 
-#principal{
+div.principal{
     margin: auto;
     background-color: #f2ebc7;
     width: 800px;
-    height: 800px;
-    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.5);
+    height: 1100px;
+    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.5);
     margin-bottom: 40px;
     margin-top: 20px;
 }
 
-.redondo{
+div.redondo{
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
     margin-left:30px;
     padding: 25px;
@@ -69,7 +69,7 @@ a{
     background-position: center;
     width: 100%;
     height: 400px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 #eu{
     margin-top: -20px;
@@ -79,8 +79,42 @@ a{
     margin-left: -155px;
     display: inline;
 }
+
+ #pagina{
+     position:relative;
+     left:0;
+     right:0;
+     top: 0;
+     margin-left:auto;
+     margin-right:auto;
+     z-index: 10;
+}
+#backpage1{
+     position:absolute;
+     left:0;
+     right:0;
+     top: 5px;
+     margin-left:auto;
+     margin-right:auto;
+     z-index: 1;
+    -ms-transform: rotate(0.5deg); /* IE 9 */
+    -webkit-transform: rotate(0.5deg); /* Safari */
+    transform: rotate(0.5deg);
+}
+#backpage2{
+     position:absolute;
+     left:0;
+     right:0;
+     top: 9px;
+     margin-left:auto;
+     margin-right:auto;
+     z-index: 0;
+    -ms-transform: rotate(0.7deg); /* IE 9 */
+    -webkit-transform: rotate(0.7deg); /* Safari */
+    transform: rotate(0.7deg);
+}
 /*conteúdo da div principal*/
-.conteudo{
+div.conteudo{
 
 }
 #inicio{
