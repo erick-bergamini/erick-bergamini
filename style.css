@@ -126,7 +126,15 @@ img.redondo{
 div.conteudo{
     display: block;
 }
-#inicio{
+#inicio1{
+    background-image: url(titulo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 645px;
+    height: 200px;
+    margin-left: 150px;
+}
+#inicio2{
     background-image: url(titulo.png);
     background-repeat: no-repeat;
     background-position: center;
