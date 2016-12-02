@@ -135,12 +135,10 @@ div.conteudo{
     margin-left: 150px;
 }
 #inicio2{
-    background-image: url(titulo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 645px;
+
+    width: 800px;
     height: 200px;
-    margin-left: 150px;
+    text-align: center;
 }
 #meio1{
     width: 720px;
