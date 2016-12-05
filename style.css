@@ -126,6 +126,9 @@ img.redondo{
 div.conteudo{
     display: block;
 }
+a.conteudo{
+    display: block;
+}
 #inicio1{
     background-image: url(titulo.png);
     background-repeat: no-repeat;
@@ -153,12 +156,24 @@ div.conteudo{
 
 }
 #fim{
-    margin-top: 130px;
     text-align: center;
     font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    width: 800px;
 }
 
-
+#rpg-fim{
+    height: 300px; 
+    text-align: center;
+    font-size: 12px;
+    width: 800px;
+    position: absolute;
+    bottom: 0;
+    display: table-cell;
+    vertical-align:bottom; 
+    background-image: url(img/rpg-foot.png);
+}
 table{
     width: 400px;
     margin: auto;
@@ -201,3 +216,14 @@ nav{
     color:  #a5270e;
 }
 
+#backhand{
+    float: left;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin: 10px;
+    -ms-transform: rotate(0.5deg); /* IE 9 */
+    -webkit-transform: rotate(0.5deg); /* Safari */
+    transform: rotate(-20deg);
+    font-size: 10px;
+}
