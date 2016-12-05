@@ -5,7 +5,7 @@
 }
 body{
   background-color: #ddd;
-  background-image: url(darkwood.jpg);
+  background-image: url(img/darkwood.jpg);
   color: #403222;
     font-family: serif;
     font-size: 17px;
@@ -73,7 +73,7 @@ img.redondo{
 }
 
 #rodape{
-    background-image: url(rodape.png);
+    background-image: url(img/rodape.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
