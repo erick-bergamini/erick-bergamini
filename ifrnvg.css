@@ -1,0 +1,130 @@
+:root{
+    --cor-1: #1d44af;
+    --cor-2: #0077ff;
+    --cor-3: rgb(255, 244, 215);
+    --cor-4: #244f52;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background-color: #eee;
+  }
+  #main{
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 15px #00000030;
+  }
+  header {
+    background-color: var(--cor-1);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    margin: 0 30px;
+  }
+  
+  
+  .search input {
+    padding: 5px 15px;
+    border: none;
+    background-color: #00000020;
+    border-radius: 15px;
+    color: #ffffff90;
+  }
+  
+  .search input:focus{
+    outline: 0;
+  }
+  .search input::placeholder{
+    color: #ffffff30;
+  }
+  .login a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 0 1500px var(--cor-4) inset;
+  }
+
+  .banner2 {
+    background-image: url('banner2.jpg');
+    box-shadow: 0 0 1500px #114549 inset;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .card {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #00000090;
+  }
+  
+  .card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .text-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  @media (max-width:768px) {
+
+    #main{
+        width: 100%;
+    }
+    .text-area {
+        display: block;
+        margin: 20px 0;
+        flex-wrap:wrap;
+      }
+      .column {
+        flex-grow: 2;
+        padding: 10px;
+      }
+      .search input {
+        padding: 5px 15px;
+        width: 100px;
+        margin-right: 10px;
+      }
+  }
