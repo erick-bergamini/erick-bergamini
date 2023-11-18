@@ -1,5 +1,5 @@
 :root{
-    --cor-1: #1d44af;
+    --cor-1: #333;
     --cor-2: #0077ff;
     --cor-3: rgb(255, 244, 215);
     --cor-4: #244f52;
@@ -32,21 +32,7 @@ body {
     margin: 0 30px;
   }
   
-  
-  .search input {
-    padding: 5px 15px;
-    border: none;
-    background-color: #00000020;
-    border-radius: 15px;
-    color: #ffffff90;
-  }
-  
-  .search input:focus{
-    outline: 0;
-  }
-  .search input::placeholder{
-    color: #ffffff30;
-  }
+
   .login a {
     padding: 5px;
     color: #fff;
@@ -54,19 +40,27 @@ body {
   }
   
   .banner {
-    background-image: url('banner.jpg');
-    background-size: cover;
-    background-position: center;
     color: #fff;
     text-align: center;
     padding: 50px;
     box-shadow: 0 0 1500px var(--cor-4) inset;
+    position: relative;
+    overflow: hidden;
   }
 
-  .banner2 {
-    background-image: url('banner2.jpg');
-    box-shadow: 0 0 1500px #114549 inset;
+  .banner video {
+    position: absolute;
+    width: 1200px;
+    right: 0;
+    top: -280px;
+
   }
+
+  video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
   .card-container {
     display: flex;
