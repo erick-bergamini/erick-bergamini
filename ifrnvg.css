@@ -1,7 +1,7 @@
 :root{
     --cor-1: #333;
     --cor-2: #0077ff;
-    --cor-3: rgb(255, 244, 215);
+    --cor-3: #819b99;
     --cor-4: #244f52;
 }
 html{
@@ -111,8 +111,8 @@ body {
   
   .card img {
     width: 100%;
-    max-height: 150px;
     object-fit: cover;
+    width: 200px;
   }
   
   .text-area {
@@ -166,6 +166,18 @@ body {
     .banner p{
       margin-top: 37px;
       width: 330px;
+    }
+
+    .card img {
+      width: 70px;
+    }
+
+    .card {
+      padding: 10px;
+    }
+
+    .card-container {
+      height: 250px;
     }
 
     .text-area {
