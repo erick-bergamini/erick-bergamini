@@ -11,27 +11,36 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    background-color: #eee;
+    background-color: #545454;
   }
   #main{
     width: 1200px;
     margin: auto;
-    background-color: #fff;
+    background-color: #ddd;
     box-shadow: 0 0 15px #00000030;
   }
   header {
     background-color: var(--cor-1);
     color: #fff;
     padding: 10px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .logo h1 {
     margin: 0 30px;
+    display: inline;
+    position: absolute;
+    top: 40px;
+
   }
   
+  .logo img {
+    margin: 0 30px;
+    width: 70px;
+  }
 
   .login a {
     padding: 5px;
@@ -43,6 +52,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 50px;
+    height: 250px;
     box-shadow: 0 0 1500px var(--cor-4) inset;
     position: relative;
     overflow: hidden;
@@ -50,22 +60,44 @@ body {
 
   .banner video {
     position: absolute;
-    width: 1200px;
-    right: 0;
+    width: 1210px;
+    right: -5px;
     top: -280px;
+    background-color: #3c5253;
 
   }
+.banner h1{
+  position:absolute;
+  z-index: 1;
+  background-color: #00000050;
+  padding: 20px;
+  width: 700px;
+  text-align: left;
+}
+.banner p{
+  position:absolute;
+  z-index: 1;
+  top: 100px;
+  text-align: left;
+  background-color: #00000050;
+  margin-top: 39px;
+  padding: 20px;
+  width: 700px;
+}
 
   video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
+
 }
 
   .card-container {
     display: flex;
+    height: 350px;
     justify-content: space-around;
-    margin: 20px 0;
+    padding: 20px 0;
+    background-color: #444;
   }
   
   .card {
@@ -73,6 +105,7 @@ body {
     padding: 20px;
     background-color: var(--cor-3);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
     color: #00000090;
   }
   
@@ -102,11 +135,39 @@ body {
     padding: 10px;
     text-align: center;
   }
+
+/*------------------- responsivo -------------------------*/
+
   @media (max-width:768px) {
 
     #main{
         width: 100%;
     }
+
+    .logo h1 {
+      margin: 0;
+      display: inline;
+      position: absolute;
+      top: 40px;
+    }
+
+    .banner {
+      padding: 10px;
+      height: 340px;
+
+    }
+
+    .banner h1{
+      width: 330px;
+      text-align: left;
+      margin: 0;
+    }
+
+    .banner p{
+      margin-top: 37px;
+      width: 330px;
+    }
+
     .text-area {
         display: block;
         margin: 20px 0;
