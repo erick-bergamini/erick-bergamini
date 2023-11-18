@@ -40,16 +40,22 @@ body {
   }
   
   .logo img {
-    margin: 0 30px;
+    margin: 0px 10px -20px 30px;
     width: 70px;
   }
-
-  .login a {
-    padding: 5px;
-    color: #fff;
-    text-decoration: none;
-  }
   
+  .links{
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+    z-index: 1;
+  }
+
+  .links img{
+    width: 24px;
+  }
+
+
   .banner {
     color: #fff;
     text-align: center;
@@ -151,6 +157,10 @@ body {
       display: inline;
       position: absolute;
       top: 40px;
+    }
+
+    .links{
+      display: none;
     }
 
     .banner {
