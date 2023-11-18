@@ -2,7 +2,7 @@
     --cor-1: #333;
     --cor-2: #0077ff;
     --cor-3: #819b99;
-    --cor-4: #244f52;
+    --cor-4: #000000a0;
 }
 html{
     scroll-behavior: smooth;
@@ -55,7 +55,7 @@ body {
     text-align: center;
     padding: 50px;
     height: 250px;
-    box-shadow: 0 0 1500px var(--cor-4) inset;
+    box-shadow: 0 0 30px var(--cor-4) inset;
     position: relative;
     overflow: hidden;
   }
