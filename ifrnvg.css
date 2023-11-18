@@ -19,7 +19,7 @@ body {
     width: 1200px;
     margin: auto;
     background-color: #ddd;
-    box-shadow: 0 0 15px #00000030;
+    box-shadow: 0 0 40px #000000a0;
   }
   header {
     background-color: var(--cor-1);
